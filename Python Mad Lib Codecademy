@@ -1,0 +1,56 @@
+"""
+Madlibs.py
+This program generates passages that are generated in Mad-Lib format
+Prompts the user for words and then completes the story with those words.
+Author: Gaylan 
+"""
+
+# The template for the story
+
+Story ="This morning %s woke up feeling %s. 'It is going to be a %s day!' Outside, a bunch of %s were protesting to keep %s in stores. They began to %s to the rhythm of the %s, which made all the %s very %s. Concerned, %s texted %s, who flew %s to %s and dropped %s in a puddle of frozen %s. %s woke up in the year %s, in a world where %s ruled the world."
+
+print "Mad Libs is starting!"
+
+name1= raw_input ('Enter Name: ')
+Mood= raw_input ('Enter Mood: ')
+Adverb1=raw_input ('Enter Adverb: ')
+Noun1=raw_input('Enter Noun: ')
+Noun2=raw_input('Enter Noun: ')
+Verb1=raw_input('Enter Verb: ')
+Noun3=raw_input('Enter Noun: ')
+Verb2=raw_input('Enter Verb: ')
+Noun4=raw_input('Enter Noun: ')
+Adverb1=raw_input('Enter Adverb: ')
+Adverb2=raw_input('Enter Adverb: ')
+Place=raw_input('Enter Place: ')
+Object1=raw_input('Enter Object: ')
+Liquid1=raw_input('Enter Liquid: ')
+Name2=raw_input('Enter Name: ')
+Year=raw_input('Enter Year: ')
+Noun5=raw_input('Enter Noun: ')
+
+print Story% (Name1,Mood,  Noun1,Noun2, Verb1, Noun3, Verb2, Noun4, Adverb1, Adverb2, Place, Object1, Liquid1, Name2, Year, Noun5)
+
+print Story
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
